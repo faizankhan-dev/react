@@ -1,3 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-color: rgb(12, 12, 12);
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .logo{
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+   letter-spacing: 0.5px;
+   color: white;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+.nav-section{
+    height: 85vh;
+    width: 100%;
+    background-color: cyan;
+}
 form{
-    background-color: rgb(20, 233, 233);
+    background-color: aqua;
+}
+
+.vtable{
+    background-color: rgb(229, 229, 195);
+    border: 4px solid red;
+
+}
+.button{
+    background-color: rgb(220, 208, 208);
+}
+.button1{
+    background-color: rgb(233, 161, 161);
 }
