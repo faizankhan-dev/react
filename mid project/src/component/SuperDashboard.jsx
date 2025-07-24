@@ -41,7 +41,7 @@ const SuperDashboard = () => {
 
         {
          initialdata.map((e)=>(
-            <tr>
+            <tr key={i}>
                 <td>{e.name}</td>
                 <td>{e.email}</td>
                 <td>{e.mobile}</td>

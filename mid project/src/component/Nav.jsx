@@ -9,6 +9,8 @@ const Nav=()=>{
         <ul>
             <li><Link to={"/page1"}>Page1</Link></li>
             <li><Link to={"/page2"}>Page2</Link></li>
+            <li><Link to={"/product"}>Product</Link></li>
+
             <li><Link to={"/contact"}>Contact</Link></li>
             <li><Link to={"/gallary"}>Gallary</Link></li>
             <li><Link to={"/about"}>About</Link></li>

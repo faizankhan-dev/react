@@ -33,7 +33,8 @@ const Page1 = () => {
       await axios.post(API_URL,formdata);
       navigate("/dashboard",{state:formdata})
       
-    } catch (error) {
+    } 
+    catch (error) {
       alert("url band hai",error)
     }
 

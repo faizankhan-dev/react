@@ -1,26 +1,33 @@
-import React from 'react'
-import './style.css'
-import { Link } from 'react-router-dom'
+import React from "react";
+import Page2 from "./page2";
+import Page1 from './Page1';
+import {Link}from 'react-router-dom'
 
-const Nav = () => {
-  return (
-    <>
-    <nav>
-      <div className="logo">Logo</div>
-      <ul>
-        <li><Link to={"/"}>Home</Link></li>
-        <li><Link to={"/about"}>About</Link></li>
+const Nav=()=>{
+    return( <>
+      <nav>  
+        <div className="logo">LOGO</div>
+        <ul>
+            <li><Link to={"/page1"}>Page1</Link></li>
+            <li><Link to={"/page2"}>Page2</Link></li>
+            <li><Link to={"/contact"}>Contact</Link></li>
+            <li><Link to={"/gallary"}>Gallary</Link></li>
+            <li><Link to={"/about"}>About</Link></li>
+        
 
-        <li><a href="">Services</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Gallery</a></li>
-      </ul>
-    </nav>
-    <section className='nav-section'>
-      <h1>This is section</h1>
-    </section>
-    </>
-  )
+        </ul>
+      </nav> 
+
+
+       
+
+       
+
+     
+
+      </>
+     
+    )
 }
 
 export default Nav
